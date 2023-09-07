@@ -1,0 +1,24 @@
+### Requisições para a API E-commerce
+
+#### Obter todos os produtos
+
+**Método:** GET
+**URL:** `http://localhost:9000/ecommerce/todosproducts`
+
+#### Obter todos os pacotes
+
+**Método:** GET
+**URL:** `http://localhost:9000/ecommerce/todospacks`
+
+#### Atualizar dados de preço
+
+**Método:** PUT
+**URL:** `http://localhost:9000/ecommerce/atualizarpreco`
+**Tipo de Conteúdo:** application/json
+
+**Corpo da Requisição:**
+```json
+{
+    "codigo": 1020,
+    "novoPreco": 109
+}

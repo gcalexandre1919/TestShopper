@@ -1,0 +1,15 @@
+/* Estilos para o corpo (body) da página */
+body {
+  margin: 0; /* Remove margem padrão para evitar espaços em branco */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; /* Escolha de fonte padrão para o corpo */
+  -webkit-font-smoothing: antialiased; /* Suaviza as fontes no Chrome e Safari */
+  -moz-osx-font-smoothing: grayscale; /* Suaviza as fontes no Firefox */
+}
+
+/* Estilos para código (code) dentro da página */
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace; /* Escolha de fonte padrão para código */
+}
